@@ -1,5 +1,8 @@
 pipeline {
-  agent { dockerfile true }
+  dockerfile {
+      customWorkspace '/pwec2'
+      filename 'Dockerfile'
+    }
   stages {
     stage('Test') {
       steps {
