@@ -1,5 +1,6 @@
 pipeline {
-  dockerfile {
+  agent {
+    dockerfile {
       customWorkspace '/pwec2'
       filename 'Dockerfile'
     }
