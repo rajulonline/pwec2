@@ -1,7 +1,7 @@
 pipeline {
   agent {
     dockerfile {
-      customWorkspace '/var/lib/jenkins/pwec2/pwec2'
+      customWorkspace '/pwec2'
       filename 'Dockerfile'
     }
   }
