@@ -2,7 +2,7 @@
 FROM node:20
 
 # Set the working directory in the container
-WORKDIR /app
+WORKDIR /pwec2
 
 # Install dependencies including Playwright
 RUN apt-get update && apt-get install -y \
